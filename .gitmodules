@@ -1,0 +1,3 @@
+[submodule "3-项目源码"]
+	path = 3-项目源码
+	url = git@github.com:Jack2313/WeChatterBot.git
