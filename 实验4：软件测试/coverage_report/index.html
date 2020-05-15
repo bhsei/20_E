@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Coverage report</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.ba-throttle-debounce.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="jquery.hotkeys.js"></script>
+    <script type="text/javascript" src="coverage_html.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(coverage.index_ready);
+    </script>
+</head>
+<body class="indexfile">
+<div id="header">
+    <div class="content">
+        <h1>Coverage report:
+            <span class="pc_cov">73%</span>
+        </h1>
+        <img id="keyboard_icon" src="keybd_closed.png" alt="Show keyboard shortcuts" />
+        <form id="filter_container">
+            <input id="filter" type="text" value="" placeholder="filter..." />
+        </form>
+    </div>
+</div>
+<div class="help_panel">
+    <img id="panel_icon" src="keybd_open.png" alt="Hide keyboard shortcuts" />
+    <p class="legend">Hot-keys on this page</p>
+    <div>
+    <p class="keyhelp">
+        <span class="key">n</span>
+        <span class="key">s</span>
+        <span class="key">m</span>
+        <span class="key">x</span>
+        <span class="key">b</span>
+        <span class="key">p</span>
+        <span class="key">c</span> &nbsp; change column sorting
+    </p>
+    </div>
+</div>
+<div id="index">
+    <table class="index">
+        <thead>
+            <tr class="tablehead" title="Click to sort">
+                <th class="name left headerSortDown shortkey_n">Module</th>
+                <th class="shortkey_s">statements</th>
+                <th class="shortkey_m">missing</th>
+                <th class="shortkey_x">excluded</th>
+                <th class="shortkey_b">branches</th>
+                <th class="shortkey_p">partial</th>
+                <th class="right shortkey_c">coverage</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr class="total">
+                <td class="name left">Total</td>
+                <td>6112</td>
+                <td>1302</td>
+                <td>0</td>
+                <td>1057</td>
+                <td>96</td>
+                <td class="right" data-ratio="5269 7169">73%</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app___init___py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\__init__.py</a></td>
+                <td>10</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="10 10">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot___init___py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\__init__.py</a></td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="2 2">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_adapters_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\adapters.py</a></td>
+                <td>8</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 8">88%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_chatterbot_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\chatterbot.py</a></td>
+                <td>125</td>
+                <td>18</td>
+                <td>0</td>
+                <td>62</td>
+                <td>4</td>
+                <td class="right" data-ratio="153 187">82%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_comparisons_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\comparisons.py</a></td>
+                <td>71</td>
+                <td>34</td>
+                <td>0</td>
+                <td>14</td>
+                <td>1</td>
+                <td class="right" data-ratio="44 85">52%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_constants_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\constants.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_conversation_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\conversation.py</a></td>
+                <td>68</td>
+                <td>5</td>
+                <td>0</td>
+                <td>12</td>
+                <td>2</td>
+                <td class="right" data-ratio="73 80">91%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_ext___init___py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\ext\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_ext_sqlalchemy_app___init___py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\ext\sqlalchemy_app\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_ext_sqlalchemy_app_models_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\ext\sqlalchemy_app\models.py</a></td>
+                <td>34</td>
+                <td>1</td>
+                <td>0</td>
+                <td>6</td>
+                <td>0</td>
+                <td class="right" data-ratio="37 40">92%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_filters_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\filters.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="11 11">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_languages_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\languages.py</a></td>
+                <td>1612</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1609 1612">99%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_logic___init___py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\logic\__init__.py</a></td>
+                <td>9</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="9 9">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_logic_best_match_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\logic\best_match.py</a></td>
+                <td>43</td>
+                <td>3</td>
+                <td>0</td>
+                <td>16</td>
+                <td>1</td>
+                <td class="right" data-ratio="53 59">90%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_logic_const_adapter_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\logic\const_adapter.py</a></td>
+                <td>11</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="11 11">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_logic_logic_adapter_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\logic\logic_adapter.py</a></td>
+                <td>33</td>
+                <td>3</td>
+                <td>0</td>
+                <td>6</td>
+                <td>1</td>
+                <td class="right" data-ratio="35 39">90%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_logic_rules_adapter_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\logic\rules_adapter.py</a></td>
+                <td>17</td>
+                <td>0</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="21 21">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_parsing_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\parsing.py</a></td>
+                <td>179</td>
+                <td>142</td>
+                <td>0</td>
+                <td>114</td>
+                <td>1</td>
+                <td class="right" data-ratio="38 293">13%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_preprocessors_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\preprocessors.py</a></td>
+                <td>16</td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="8 16">50%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_response_selection_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\response_selection.py</a></td>
+                <td>21</td>
+                <td>14</td>
+                <td>0</td>
+                <td>4</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 25">28%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_search_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\search.py</a></td>
+                <td>55</td>
+                <td>18</td>
+                <td>0</td>
+                <td>14</td>
+                <td>1</td>
+                <td class="right" data-ratio="44 69">64%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_storage___init___py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\storage\__init__.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 7">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_storage_sql_storage_new_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\storage\sql_storage_new.py</a></td>
+                <td>442</td>
+                <td>106</td>
+                <td>0</td>
+                <td>180</td>
+                <td>21</td>
+                <td class="right" data-ratio="455 622">73%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_storage_storage_adapter_new_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\storage\storage_adapter_new.py</a></td>
+                <td>61</td>
+                <td>22</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="39 61">64%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_tagging_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\tagging.py</a></td>
+                <td>32</td>
+                <td>2</td>
+                <td>0</td>
+                <td>20</td>
+                <td>0</td>
+                <td class="right" data-ratio="50 52">96%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_trainers_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\trainers.py</a></td>
+                <td>173</td>
+                <td>144</td>
+                <td>0</td>
+                <td>56</td>
+                <td>0</td>
+                <td class="right" data-ratio="29 229">13%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_chatterbot_utils_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\chatterbot\utils.py</a></td>
+                <td>38</td>
+                <td>20</td>
+                <td>0</td>
+                <td>12</td>
+                <td>4</td>
+                <td class="right" data-ratio="22 50">44%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_consts___init___py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\consts\__init__.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_consts_errors_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\consts\errors.py</a></td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="1 1">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_consts_ierror_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\consts\ierror.py</a></td>
+                <td>12</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="12 12">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_consts_keys_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\consts\keys.py</a></td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="3 3">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_consts_message_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\consts\message.py</a></td>
+                <td>7</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="7 7">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_libs___init___py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\libs\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_libs_chatbot_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\libs\chatbot.py</a></td>
+                <td>6</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="6 6">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_libs_errorhandler_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\libs\errorhandler.py</a></td>
+                <td>13</td>
+                <td>4</td>
+                <td>0</td>
+                <td>8</td>
+                <td>2</td>
+                <td class="right" data-ratio="11 21">52%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_libs_http_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\libs\http.py</a></td>
+                <td>24</td>
+                <td>8</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="16 24">67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_libs_msgcryptor_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\libs\msgcryptor.py</a></td>
+                <td>122</td>
+                <td>23</td>
+                <td>0</td>
+                <td>18</td>
+                <td>7</td>
+                <td class="right" data-ratio="108 140">77%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_view___init___py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\view\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_view_conversation_manager_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\view\conversation_manager.py</a></td>
+                <td>291</td>
+                <td>20</td>
+                <td>0</td>
+                <td>111</td>
+                <td>8</td>
+                <td class="right" data-ratio="374 402">93%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_view_get_response_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\view\get_response.py</a></td>
+                <td>6</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="4 6">67%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_app_view_wechat_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\app\view\wechat.py</a></td>
+                <td>74</td>
+                <td>6</td>
+                <td>0</td>
+                <td>46</td>
+                <td>4</td>
+                <td class="right" data-ratio="108 120">90%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_manage_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\manage.py</a></td>
+                <td>7</td>
+                <td>1</td>
+                <td>0</td>
+                <td>2</td>
+                <td>1</td>
+                <td class="right" data-ratio="7 9">78%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests___init___py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_base_case_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\base_case.py</a></td>
+                <td>33</td>
+                <td>15</td>
+                <td>0</td>
+                <td>2</td>
+                <td>1</td>
+                <td class="right" data-ratio="19 35">54%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_conversation_manager___init___py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\conversation_manager\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_conversation_manager_test_certify_token_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\conversation_manager\test_certify_token.py</a></td>
+                <td>35</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="35 35">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_conversation_manager_test_check_user_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\conversation_manager\test_check_user.py</a></td>
+                <td>50</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="50 50">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_conversation_manager_test_create_rule_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\conversation_manager\test_create_rule.py</a></td>
+                <td>65</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="65 65">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_conversation_manager_test_create_statement_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\conversation_manager\test_create_statement.py</a></td>
+                <td>73</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="73 73">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_conversation_manager_test_delete_rule_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\conversation_manager\test_delete_rule.py</a></td>
+                <td>59</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="59 59">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_conversation_manager_test_delete_statement_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\conversation_manager\test_delete_statement.py</a></td>
+                <td>59</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="59 59">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_conversation_manager_test_login_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\conversation_manager\test_login.py</a></td>
+                <td>36</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="36 36">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_conversation_manager_test_search_rule_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\conversation_manager\test_search_rule.py</a></td>
+                <td>74</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="74 74">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_conversation_manager_test_search_statement_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\conversation_manager\test_search_statement.py</a></td>
+                <td>74</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="74 74">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_conversation_manager_test_update_rule_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\conversation_manager\test_update_rule.py</a></td>
+                <td>88</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="88 88">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_conversation_manager_test_update_statement_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\conversation_manager\test_update_statement.py</a></td>
+                <td>89</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="89 89">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_logic___init___py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\logic\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_logic_test_best_match_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\logic\test_best_match.py</a></td>
+                <td>52</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="52 52">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_logic_test_const_adapter_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\logic\test_const_adapter.py</a></td>
+                <td>12</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="12 12">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_logic_test_rules_adapter_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\logic\test_rules_adapter.py</a></td>
+                <td>19</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="19 19">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_storage___init___py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\storage\__init__.py</a></td>
+                <td>5</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 5">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_storage_test_sql_adapter_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\storage\test_sql_adapter.py</a></td>
+                <td>265</td>
+                <td>0</td>
+                <td>0</td>
+                <td>8</td>
+                <td>0</td>
+                <td class="right" data-ratio="273 273">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_test_chatbot_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\test_chatbot.py</a></td>
+                <td>95</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="95 95">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_test_comparator_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\test_comparator.py</a></td>
+                <td>75</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="75 75">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_test_tagging_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\test_tagging.py</a></td>
+                <td>28</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="28 28">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_wechat___init___py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\wechat\__init__.py</a></td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="0 0">100%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_wechat_test_answer_msg_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\wechat\test_answer_msg.py</a></td>
+                <td>92</td>
+                <td>1</td>
+                <td>0</td>
+                <td>6</td>
+                <td>1</td>
+                <td class="right" data-ratio="96 98">98%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_Users_36224_PycharmProjects_WeChatterBot_tests_wechat_test_check_signature_py.html">C:\Users\36224\PycharmProjects\WeChatterBot\tests\wechat\test_check_signature.py</a></td>
+                <td>24</td>
+                <td>1</td>
+                <td>0</td>
+                <td>2</td>
+                <td>1</td>
+                <td class="right" data-ratio="24 26">92%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_software_pycharm_PyCharm 2020_1_plugins_python_helpers_pycharm_django_test_manage_py.html">D:\software\pycharm\PyCharm 2020.1\plugins\python\helpers\pycharm\django_test_manage.py</a></td>
+                <td>108</td>
+                <td>36</td>
+                <td>0</td>
+                <td>30</td>
+                <td>12</td>
+                <td class="right" data-ratio="84 138">61%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_software_pycharm_PyCharm 2020_1_plugins_python_helpers_pycharm_django_test_runner_py.html">D:\software\pycharm\PyCharm 2020.1\plugins\python\helpers\pycharm\django_test_runner.py</a></td>
+                <td>148</td>
+                <td>74</td>
+                <td>0</td>
+                <td>52</td>
+                <td>10</td>
+                <td class="right" data-ratio="84 200">42%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_software_pycharm_PyCharm 2020_1_plugins_python_helpers_pycharm_pycharm_run_utils_py.html">D:\software\pycharm\PyCharm 2020.1\plugins\python\helpers\pycharm\pycharm_run_utils.py</a></td>
+                <td>38</td>
+                <td>13</td>
+                <td>0</td>
+                <td>12</td>
+                <td>4</td>
+                <td class="right" data-ratio="29 50">58%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_software_pycharm_PyCharm 2020_1_plugins_python_helpers_pycharm_tcmessages_py.html">D:\software\pycharm\PyCharm 2020.1\plugins\python\helpers\pycharm\tcmessages.py</a></td>
+                <td>63</td>
+                <td>15</td>
+                <td>0</td>
+                <td>10</td>
+                <td>2</td>
+                <td class="right" data-ratio="54 73">74%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_software_pycharm_PyCharm 2020_1_plugins_python_helpers_pycharm_tcunittest_py.html">D:\software\pycharm\PyCharm 2020.1\plugins\python\helpers\pycharm\tcunittest.py</a></td>
+                <td>197</td>
+                <td>121</td>
+                <td>0</td>
+                <td>56</td>
+                <td>7</td>
+                <td class="right" data-ratio="89 253">35%</td>
+            </tr>
+            <tr class="file">
+                <td class="name left"><a href="_software_pycharm_PyCharm 2020_1_plugins_python_helpers_pycharm_teamcity___init___py.html">D:\software\pycharm\PyCharm 2020.1\plugins\python\helpers\pycharm\teamcity\__init__.py</a></td>
+                <td>6</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td class="right" data-ratio="5 6">83%</td>
+            </tr>
+        </tbody>
+    </table>
+    <p id="no_rows">
+        No items found using the specified filter.
+    </p>
+</div>
+<div id="footer">
+    <div class="content">
+        <p>
+            <a class="nav" href="https://coverage.readthedocs.io">coverage.py v5.1</a>,
+            created at 2020-05-14 23:54
+        </p>
+    </div>
+</div>
+</body>
+</html>
